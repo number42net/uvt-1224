@@ -1,5 +1,9 @@
 # Unisys UVT-1224
 
+## Software
+
++ https://packages.ubuntu.com/search?keywords=vttest
+
 ## Main PCB
 
 + Battery: 3v BR-2325 (Carbon monofluoride Lithium battery rated for higher temperatures and more stability than CR style batteries.)
@@ -11,6 +15,8 @@
 Below is a description of the keyboard electronics and protocol.
 
 ### Wiring 
+
+Connectors are modular 6P6C connectors, although only 5 contacts are used. Not compatible with RJ11 (6P4C)
 
 + Green - Ground
 + Red - VCC (5v)
@@ -34,3 +40,5 @@ Keyboard micro controller: Intel P8048AH
 Screenshot of letter A being pressed:
 
 ![Protocol](pics/protocol.png?raw=true "Protocol")
+
+Scancodes can be found in the [scancodes](scancodes.md) document.
