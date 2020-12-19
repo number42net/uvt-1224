@@ -1,11 +1,12 @@
-# Introduction
+# Scan codes
+
 The below HEX values represent the binary code sent by each keypress. On release, the scan code + 1 is sent instead. 
 Example:
 | Key             | Code on press | Code on release |
 | ----------------|---------------|-----------------|
 | Hold Screen     | 2E            | 2F              |
 
-# Scan codes:
+### Scan codes:
 
 | Function row    | Code |
 | ----------------|------|
