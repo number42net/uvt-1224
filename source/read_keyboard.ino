@@ -6,6 +6,7 @@ const int dataPin = 3;
 unsigned long clockCounter = 0;
 int bitCounter = 0;
 byte data = 0;
+int byteCounter = 0;
 
 void setup() {
   Serial.begin(115200);
@@ -22,7 +23,14 @@ void setup() {
 void loop() {
   if (millis() - 5 > clockCounter) {
     if (data != 0 && bitCounter == 9) {
-      Serial.println(data, HEX);    
+      if (byteCounter == 1) {
+        Serial.println(data, HEX);
+        byteCounter = 0;
+      } else { 
+        byteCounter = 1;
+        Serial.print(data, HEX);
+        Serial.print(" ");
+      }
     }
     bitCounter=0;
     data=0;
