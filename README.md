@@ -8,7 +8,7 @@
 
 + Battery: 3v BR-2325 (Carbon monofluoride Lithium battery rated for higher temperatures and more stability than CR style batteries.)
 
-![Main PCB](pics/main-pcb.jpg?raw=true "Main PCB")
+![Main PCB](images/main-pcb.jpg?raw=true "Main PCB")
 
 ## Keyboard
 
@@ -28,7 +28,7 @@ Connectors are modular 6P6C connectors, although only 5 contacts are used. Not c
 
 Keyboard micro controller: Intel P8048AH
 
-![Keyboard PCB](pics/keyboard-pcb.jpg?raw=true "Keyboard PCB")
+![Keyboard PCB](images/keyboard-pcb.jpg?raw=true "Keyboard PCB")
 
 ### Protocol
 
@@ -39,6 +39,6 @@ Keyboard micro controller: Intel P8048AH
 
 Screenshot of letter A being pressed:
 
-![Protocol](pics/protocol.png?raw=true "Protocol")
+![Protocol](images/protocol.png?raw=true "Protocol")
 
 Scancodes can be found in the [scancodes](scancodes.md) document.
