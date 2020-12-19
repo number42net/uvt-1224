@@ -1,16 +1,22 @@
 # Unisys UVT-1224
 
+## Main PCB
+
++ Battery: 3v BR-2325 (Carbon monofluoride Lithium battery rated for higher temperatures and more stability than CR style batteries.)
+
+![Main PCB](pics/main-pcb.jpg?raw=true "Main PCB")
+
 ## Keyboard
 
-Below is a scription of the keyboard electronics and protocol.
+Below is a description of the keyboard electronics and protocol.
 
 ### Wiring 
 
-Green - Ground
-Red - VCC (5v)
-White - DB6 (5v)
-Black - DB7 (5v)
-Yellow - Ground
++ Green - Ground
++ Red - VCC (5v)
++ White - DB6 (5v)
++ Black - DB7 (5v)
++ Yellow - Ground
 
 ### PCB:
 
