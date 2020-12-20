@@ -1,9 +1,5 @@
 # Unisys UVT-1224
 
-## Software
-
-+ https://packages.ubuntu.com/search?keywords=vttest
-
 ## Main PCB
 
 + Battery: 3v BR-2325 (Carbon monofluoride Lithium battery rated for higher temperatures and more stability than CR style batteries.)
@@ -33,7 +29,7 @@ Keyboard micro controller: Intel P8048AH
 ### Protocol
 
 + Clock signal: inverse 9bits at 1/3mHz at 10μs duty cycle
-+ Number of clock ticks per byte: 9 - first tick is ignored
++ 1 start bit, followed by 8 data bits
 + Data pulse duty cycle 40μs
 + Time between bytes varies, but minimum of 10ms
 
