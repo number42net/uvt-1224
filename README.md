@@ -1,5 +1,7 @@
 # Unisys UVT-1224
 
+This is a repository for notes and code for my restoration project. More details can be found on the [restoration page](https://retro.engineer/projects/2020-12-19_Unisys_UVT-1224/) of my website. 
+
 ## Main PCB
 
 + Battery: 3v BR-2325 (Carbon monofluoride Lithium battery rated for higher temperatures and more stability than CR style batteries.)
